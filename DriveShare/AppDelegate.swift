@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SmartcarAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var smartcar: SmartcarAuth?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -39,6 +41,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // TODO: Authorization Step 3a: Receive an authorization code
+        window!.rootViewController?.presentedViewController?.dismiss(animated: true , completion: nil)
+        smartcar!.handleCallback(with: url)
+        return true
     }
 
 
