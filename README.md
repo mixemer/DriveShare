@@ -1,4 +1,4 @@
-# <img src="https://github.com/mixemer/AR-Book-World/blob/master/images/logo6.png" width="70">   DriveShare
+# <img src="https://github.com/mixemer/DriveShare/blob/master/images/Logo6.png" width="70">   DriveShare
 ## #HackRU19
 
 
@@ -7,10 +7,10 @@ Make books more interactive which creates experiential learning and more engagem
 ## IOS App:
 Welcome Page                 |Share your favourite books with the world | View 3D models of images on your books
 :---------------------------:|:------------------------------:|:------------------------------:
-![](images/Welcome.PNG)      |  ![](images/Activity-Feed.PNG) | ![](images/myBooks.PNG)
+![](images/Welcome.png)      |  ![](images/connect.png) | ![](images/tesla.png)
 
 
 
 1                            |  2                             | 3
 :---------------------------:|:------------------------------:|:------------------------------:
-![](images/Skull2.PNG)      |  ![](images/Earth.PNG)         | ![](images/Heart.PNG)
+![](images/marCar.png)      |  ![](images/carList.png)         | ![](images/selectedCar.png)
